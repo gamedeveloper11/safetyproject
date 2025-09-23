@@ -23,7 +23,7 @@ const questions = [
   },
   {
     q: "What if someone asks you to meet in person after online chatting?",
-    options: ["agree to meet them alone", "Refuse and tell an adult"],
+    options: ["Refuse and tell an adult", "Agree to meet them alone"],
     correct: 0,
     bg: "https://img.freepik.com/premium-photo/cartoon-boy-working-laptop-room-with-plant-plant_1328214-2195.jpg",
     character: "https://picsum.photos/100/120?random=14"
