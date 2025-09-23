@@ -1,10 +1,77 @@
+
 body {
+background-image:https://img.freepik.com/premium-photo/cartoon-boy-working-laptop-room-with-plant-plant_1328214-2195.jpg;
   font-family: Arial, sans-serif;
-  background-color: #f9f9f9;
   text-align: center;
   padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-h1 {
-  color: #007bff;
+#question {
+  position:absolute ;
+  display: flex;
+  flex-direction: column;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+#scene-img{
+  margin-top: -600px;
+  width: 1350px;
+  height: 750px;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#character-img {
+  width: 1px;
+  height: 1px;
+  border-radius:;
+  margin-bottom:;
+}
+
+
+
+.options{
+  position: absolute;
+  top: 78px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  background-color: #4CAF50;
+}
+.options button {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#result {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  font-size: 18px;
+  color: #666;
+  
 }

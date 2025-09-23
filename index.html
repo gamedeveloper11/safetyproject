@@ -1,19 +1,26 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>My Project</title>
-  
-  <!-- Link to CSS file -->
-  <link rel="stylesheet" href="index.css">
+  <title>Safety Game</title>
+  <h2 id="question">Loading...</h2>
+  <link rel="stylesheet"type="text/css"href="index.css">
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <p>This is a basic template with CSS and JS included.</p>
+  <p id="result"></p>
+  <img id="scene-img" src="https://img.freepik.com/premium-photo/cartoon-boy-working-laptop-room-with-plant-plant_1328214-2195.jpg" alt="Scene" width="300"><br>
+  <img id="character-img" src="https://www.shutterstock.com/image-vector/little-crying-boy-childrens-mood-600nw-1074385898.jpg" alt="Character" width="100"><br>
+ <img id="feedback-img" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fillustrations%2Fboy-crying&psig=AOvVaw2Nx_NhTir00o0BJthuE1Ky&ust=1758719538277000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNCixPz67o8DFQAAAAAdAAAAABAE" alt="Feedback" width="80"><br>
 
-  <!-- Link to JS file -->
-  <script src="index.js"></script>
+<div class="options">
+  <button onclick="checkAnswer(0)">Option 1</button>
+  <button onclick="checkAnswer(1)">Option 2</button>
+
+  </div>
+
+
+  <!-- put script at END so buttons can call it -->
+  <script src="script.js"></script>
 </body>
-</html>
+</html
