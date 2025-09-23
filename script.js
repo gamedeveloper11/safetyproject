@@ -75,7 +75,7 @@ const questions = [
     options: ["Join in to fit with the group", "Report it to a trusted adult"],
     correct: 1,
     bg: "https://img.freepik.com/premium-photo/cartoon-boy-working-laptop-room-with-plant-plant_1328214-2195.jpg"
-  }
+  },
 
 ];
 
@@ -110,7 +110,7 @@ function checkAnswer(choice) {
     fimg.src = "https://thumbs.dreamstime.com/b/happy-cartoon-boy-giving-thumbs-up-vector-illustration-adorable-brown-hair-gesture-big-smile-376266904.jpg"; // happy
     score++;
   } else {
-    fimg.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F10833942-red-wrong-mark-game-asset-2d-icon-transparent-background&psig=AOvVaw1ROj9I2WsvgWQzmngWXLXt&ust=1758720247232000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCLi8sM797o8DFQAAAAAdAAAAABAE"; // sad
+    fimg.src = "https://png.pngtree.com/png-vector/20220926/ourmid/pngtree-kid-crying-and-standing-drawn-in-cute-style-png-image_6217272.png"; // sad
   }
 
   setTimeout(() => {
